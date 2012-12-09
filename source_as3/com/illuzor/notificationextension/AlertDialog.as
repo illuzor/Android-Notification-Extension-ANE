@@ -5,7 +5,7 @@ package com.illuzor.notificationextension {
 	
 	/**
 	 * ...
-	 * @author illuzor  //  illuzor@gmail.com  //  illuzor.com
+	 * @author illuzor
 	 */
 	
 	public class AlertDialog {

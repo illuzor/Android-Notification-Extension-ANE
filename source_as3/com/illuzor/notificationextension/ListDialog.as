@@ -7,7 +7,7 @@ package com.illuzor.notificationextension {
 	
 	/**
 	 * ...
-	 * @author illuzor  //  illuzor@gmail.com  //  illuzor.com
+	 * @author illuzor
 	 */
 	
 	[Event(name = "select", type = "flash.events.Event")]
