@@ -113,4 +113,5 @@ Parameters:
 4) Dispose. If you don`t need extension after use, dispose it:
 
 	NotificationExtension.dispose();
-	
+
+Demo app - http://clck.ru/4Jj0c
