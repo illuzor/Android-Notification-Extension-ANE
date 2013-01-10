@@ -11,7 +11,9 @@ public class ShowToastFuntion implements FREFunction {
 		try {
 			String message = args[0].getAsString();
 			int duration = args[1].getAsInt();
+			int gravity = args[2].getAsInt();
 			Toast toast = Toast.makeText(context.getActivity(), message, duration);
+			if(gravity != 0) toast.setGravity(gravity, 0, 0);
 			toast.show();
 			return null;
 		} catch (Exception e) {

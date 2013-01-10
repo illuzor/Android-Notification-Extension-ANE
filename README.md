@@ -8,12 +8,21 @@ Features:
 	- alert dialog (without buttons or with from 1 to 3 buttons)
 	- list dialog (with any number of buttons)
 	
+Changes history:
+
+	10.01.2013:
+	- added toast gravity
+	
+	
 ![notif_ane.png](http://download.illuzor.com/images/github/ane/notif_ane.png)
 	
 How to use:
 
 Connect com.illuzor.extensions.NotificationExtension.ane file to your android air project.
-Import import com.illuzor.notificationextension.NotificationExtension;
+Imports: 
+import com.illuzor.notificationextension.NotificationExtension;
+import com.illuzor.notificationextension.ToastDuration;
+import com.illuzor.notificationextension.ToastGravity;
 
 1) Toast:
 
@@ -24,6 +33,8 @@ Import import com.illuzor.notificationextension.NotificationExtension;
 	NotificationExtension.showToast("Toast text", ToastDuration.TOAST_SHORT);
 	// or
 	NotificationExtension.showToast("Toast text", ToastDuration.TOAST_LONG);
+	// also you can add toast gravity:
+	NotificationExtension.showToast("Toast text", ToastDuration.TOAST_LONG, ToastGravity.TOP) // or ToastGravity.BOTTOM, or ToastGravity.LEFT etc.
 	
 2) Alert dialog:
 
@@ -114,4 +125,4 @@ Parameters:
 
 	NotificationExtension.dispose();
 
-Demo app - http://clck.ru/4Jj0c
+Demo app - http://yadi.sk/d/Se_LR8fm1lgsD

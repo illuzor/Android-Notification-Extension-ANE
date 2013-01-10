@@ -15,9 +15,9 @@ package com.illuzor.notificationextension {
 			context = ExtensionContext.createExtensionContext("com.illuzor.extensions.NotificationExtension", null);
 		}
 		
-		public static function showToast(toastText:String, duration:uint = 0):void {
+		public static function showToast(toastText:String, duration:uint = 0, gravity:uint = 0):void {
 			if (!context) init();
-			context.call("showToast", toastText, duration);
+			context.call("showToast", toastText, duration, gravity);
 		}
 		
 		public static function getAlertDialog(title:String, message:String, cancelable:Boolean = false):AlertDialog {
