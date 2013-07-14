@@ -54,7 +54,7 @@ package com.illuzor.notificationextension {
 		public function get selectedID():int {
 			if (_selectedID == -1) {
 				throw new Error("Needed to wait for Event.SELECT before get selectedID");
-				return;
+				return null;
 			}
 			return _selectedID;
 		}
