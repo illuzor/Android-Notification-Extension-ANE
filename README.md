@@ -15,6 +15,8 @@ Changes history:
 	
 	
 ![notif_ane.png](http://download.illuzor.com/images/github/ane/notif_ane.png)
+
+Important! Be shure, that you are using latest version of AIR SDK. This ANE builded for 4.0
 	
 How to use:
 
