@@ -1,8 +1,15 @@
-<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+<extension xmlns="http://ns.adobe.com/air/extension/14.0">
 	<id>com.illuzor.extensions.NotificationExtension</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>notifExtLib.jar</nativeLibrary>
+				<initializer>com.illuzor.notificationextension.NotificationExtension</initializer>
+				<finalizer>com.illuzor.notificationextension.NotificationExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
 			<applicationDeployment>
 				<nativeLibrary>notifExtLib.jar</nativeLibrary>
 				<initializer>com.illuzor.notificationextension.NotificationExtension</initializer>

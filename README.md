@@ -8,15 +8,9 @@ Features:
 	- alert dialog (without buttons or with from 1 to 3 buttons)
 	- list dialog (with any number of buttons)
 	
-Changes history:
-
-	10.01.2013:
-	- added toast gravity
-	
-	
 ![notif_ane.png](http://download.illuzor.com/images/github/ane/notif_ane.png)
 
-Important! Be shure, that you are using latest version of AIR SDK. This ANE builded for 4.0
+Important! Be shure, that you are using latest version of AIR SDK. This ANE builded for 14.0
 	
 How to use:
 
