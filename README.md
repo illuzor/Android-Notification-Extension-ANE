@@ -10,7 +10,7 @@ Features:
 	
 ![notif_ane.png](http://download.illuzor.com/images/github/ane/notif_ane.png)
 
-Important! Be shure you are using latest version of AIR SDK. This ANE builded for 15.0
+Important! Be shure you are using latest version of AIR SDK. This ANE builded for 15.0.356
 	
 How to use:
 
